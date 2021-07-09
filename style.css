@@ -1,6 +1,6 @@
 
 :root {
-    --bs-blue: #0d6efd;
+    bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
     --bs-purple: #6f42c1;
     --bs-pink: #d63384;
@@ -26,6 +26,9 @@
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   }
 
+  
+    
+
 body {
     background-color: black;
 
@@ -44,14 +47,22 @@ body {
 }
 
 .nav-link{
-    color: #ffff;
+    color: black;
+    width: 1rem;
+    
     }
 
+
+.carousel {
+    padding: 5rem;
+    border-style: solid !important;
+    interval: 1000;
+   
+}
+
 .about{
-    padding: 6rem;
-    margin-bottom: 0%;
-    margin-top: 0%;
-    text-align: justify;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
 }
 
 .accordion-flush{
@@ -76,15 +87,26 @@ body {
     
   }
 
-.about h1{
+  .about{
+      padding: 6rem;
+      margin-bottom: 0%;
+      margin-top: 0%;
+      
+     
+      
+  }
+
+  .about h1{
     font-family: Broadway;
     font-size: 6rem;
+    hyphens: auto; 
+	text-align: justify
   }
 
-.carousel-angelic{
+  .carousel-item{
       border-radius: 1rem;
       border-color: floralwhite !important;
-      padding: 5rem;
   }
 
+  
 
